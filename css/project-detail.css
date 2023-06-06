@@ -1,0 +1,15 @@
+.w-6 {
+    height: 23px;
+}
+
+.text-info {
+    font-size: 2em;
+}
+
+.text-dark {
+    font-size: 1.5em;
+}
+
+.dotted {
+    border-bottom: 1px dotted green;
+}

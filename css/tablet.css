@@ -1,0 +1,37 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    section>.container,
+    #banner {
+        width: 85%;
+    }
+
+    #banner {
+        height: 35vh;
+    }
+
+    /* navbar */
+    #nav-bar .container {
+        padding: 0px;
+        padding: 30px 50px;
+    }
+
+    #nav-name,
+    #nav-job {
+        display: none;
+    }
+
+    /* job-info */
+    #job-info .container {
+        justify-content: space-evenly;
+    }
+
+    #job-info .job-info {
+        width: 40%;
+    }
+
+    /* project */
+    .project-detail > div:not(.project-img) {
+        padding: 10px 10px;
+        flex-wrap: wrap;
+    }
+}
